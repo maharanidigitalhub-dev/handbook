@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { V } from '../tokens.js';
-import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, EditSelect } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, EditSelect } from '../CSS/components.jsx';
 
 const WorkflowSection = () => {
   const [done, setDone] = useState({});
