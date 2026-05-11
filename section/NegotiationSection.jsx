@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { V } from '../tokens.js';
-import { SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody, EditInput, EditSelect, FormInput } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody, EditInput, EditSelect, FormInput } from '../CSS/components.jsx';
 
 const NegotiationSection = () => {
   const [erF, setErF] = useState('');
