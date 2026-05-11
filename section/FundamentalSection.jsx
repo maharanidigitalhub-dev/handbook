@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { V } from '../tokens.js';
-import { TIERS, PLATFORMS } from '../data.js';
-import { Badge, Callout, SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { TIERS, PLATFORMS } from '../CSS/data.js';
+import { Badge, Callout, SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody } from '../CSS/components.jsx';
 
 const FundamentalSection = () => {
   const [tab, setTab] = useState('definisi');
