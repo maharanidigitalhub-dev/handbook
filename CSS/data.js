@@ -1,4 +1,4 @@
-import { V } from './tokens.js';
+import { V } from '../src/tokens.js';
 
 export const TIERS = [
   {name:'Nano',range:'1K–10K',rate:'Rp 300K–1,5M',er:'5–20%',conv:92,color:V.success,trust:'Sangat Tinggi',trustClass:'badge-success',best:'Niche product, trust-based, conversion'},
