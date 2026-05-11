@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { V, CSS } from './tokens.js';
-import { Sidebar } from '../CSS/components.jsx';        // ← ../ bukan ./
-import HomeSection from '../section/HomeSection.jsx';   // ← ../section/ bukan ./sections/
-import FundamentalSection from '../section/FundamentalSection.jsx';
-import ScoringSection from '../section/ScoringSection.jsx';
-import NegotiationSection from '../section/NegotiationSection.jsx';
-import WorkflowSection from '../section/WorkflowSection.jsx';
-import BriefingSection from '../section/BriefingSection.jsx';
-import CommunicationSection from '../section/CommunicationSection.jsx';
-import ToolsSection from '../section/ToolsSection.jsx';
-import BrandSection from '../section/BrandSection.jsx';
+import { Sidebar } from '@css/components.jsx';
+import HomeSection from '@section/HomeSection.jsx';
+import FundamentalSection from '@section/FundamentalSection.jsx';
+import ScoringSection from '@section/ScoringSection.jsx';
+import NegotiationSection from '@section/NegotiationSection.jsx';
+import WorkflowSection from '@section/WorkflowSection.jsx';
+import BriefingSection from '@section/BriefingSection.jsx';
+import CommunicationSection from '@section/CommunicationSection.jsx';
+import ToolsSection from '@section/ToolsSection.jsx';
+import BrandSection from '@section/BrandSection.jsx';
 
 const SECTIONS = {
   home: HomeSection,
