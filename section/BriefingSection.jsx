@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { V } from '../tokens.js';
-import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, FormInput, FormSelect, FormTextarea } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, FormInput, FormSelect, FormTextarea } from '../CSS/components.jsx';
 
 const BriefingSection = () => {
   const init = { name: '', objective: 'Awareness', platform: 'TikTok', deliverables: '', gender: 'Perempuan', age: '', interest: '', message: '', cta: '', mandatory: '', dos: '', donts: '', draft: '', posting: '', pic: '', contact: '' };
