@@ -1,6 +1,6 @@
-import { V } from '../tokens.js';
-import { TOOLS_DATA } from '../data.js';
-import { Badge, Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, Stars } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { TOOLS_DATA } from '../CSS/data.js';
+import { Badge, Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, Stars } from '../CSS/components.jsx';
 
 const ToolsSection = () => (
   <div className="fade-up section-pad" style={{ padding: '32px 36px' }}>
