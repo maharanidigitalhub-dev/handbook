@@ -1,5 +1,5 @@
-import { V } from '../tokens.js';
-import { NAV_ITEMS } from '../data.js';
+import { V } from '../src/tokens.js';
+import { NAV_ITEMS } from './data.js';
 
 /* ─── Badge ─── */
 export const Badge = ({ children, cls = 'badge-rose', style: s = {} }) => (
