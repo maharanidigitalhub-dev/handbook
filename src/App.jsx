@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { V, CSS } from './tokens.js';
-import { Sidebar } from './CSS/components.jsx';
+import { Sidebar } from '../CSS/components.jsx';
 import HomeSection from './sections/HomeSection.jsx';
 import FundamentalSection from './sections/FundamentalSection.jsx';
 import ScoringSection from './sections/ScoringSection.jsx';
