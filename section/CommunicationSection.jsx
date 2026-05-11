@@ -1,5 +1,5 @@
-import { V } from '../tokens.js';
-import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, EditSelect } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { Callout, SectionTitle, SectionHeading, TblWrap, Th, Td, TrBody, EditInput, EditSelect } from '../CSS/components.jsx';
 
 const CommunicationSection = () => (
   <div className="fade-up section-pad" style={{ padding: '32px 36px' }}>
