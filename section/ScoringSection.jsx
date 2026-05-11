@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { V } from '../tokens.js';
-import { SCORING_DIMS } from '../data.js';
-import { Badge, Callout, SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody, EditInput } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { SCORING_DIMS } from '../CSS/data.js';
+import { Badge, Callout, SectionTitle, SectionHeading, Card, TblWrap, Th, Td, TrBody, EditInput } from '../CSS/components.jsx';
 
 const ScoringSection = () => {
   const [scores, setScores] = useState({ audienceFit: 7, engagementQuality: 7, contentQuality: 8, brandFit: 8, professionalism: 6, costEfficiency: 7 });
