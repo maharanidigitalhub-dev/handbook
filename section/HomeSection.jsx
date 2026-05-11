@@ -1,5 +1,5 @@
-import { V } from '../tokens.js';
-import { Badge } from '../components.jsx';
+import { V } from '../src/tokens.js';
+import { Badge } from '../CSS/components.jsx';
 
 const HomeSection = ({ setSection }) => {
   const modules = [
